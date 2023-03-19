@@ -9,6 +9,8 @@ ingress: true
 ingress_port: 0
 ingress_stream: true
 panel_icon: mdi:sitemap
+privileged: ["SYS_RAWIO"]
+devices: ["/dev/ttyUSB0","/dev/ttyUSB1","/dev/ttyUSB2","/dev/ttyUSB3"]
 init: false
 homeassistant: 2021.3.0
 arch:
